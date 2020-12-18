@@ -1,0 +1,28 @@
+---
+title: "Factors"
+author: "Aniket Kale"
+date: "18/12/2020"
+output: word_document
+---
+
+---
+```{r}
+rm(list=ls())
+a=c("jan","feb","mar","apr")
+a
+as.numeric(a)
+class(a)
+b=as.factor(a)
+as.numeric(b)
+b
+# Missing Value test
+c=c(5,6,7,NA,NA,9)
+is.na(c)
+d=c("jan",NA,"feb")
+is.na(d)
+# Null value
+e=c(NULL,6,7)
+is.null(e)
+f=NULL
+is.null(f)
+```
